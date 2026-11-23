@@ -44,8 +44,9 @@ def main():
     validate=argparse.ArgumentParser(); validate.add_argument('--validate',action='store_true'); args=validate.parse_args(); verified=load(VERIFIED)
     errors=[f"第{i+1}条缺少{key}" for i,e in enumerate(verified) for key in ('title','date','url') if not e.get(key)]
     if errors: print('\n'.join(errors),file=sys.stderr); return 1
-    CALENDAR.write_text(ics(verified),encoding='utf-8')
-    if args.validate: print(f'验证通过：{len(verified)} 个已核验事件'); return 0
+    if args.validate:
+        CALENDAR.write_text(ics(verified),encoding='utf-8')
+        print(f'验证通过：{len(verified)} 个已核验事件'); return 0
     pending=load(PENDING); known={e['id'] for e in pending}; failures=[]
     for source in load(SOURCES):
         try:
@@ -53,6 +54,8 @@ def main():
                 if event['id'] not in known: pending.append(event); known.add(event['id'])
         except (HTTPError,URLError,TimeoutError,UnicodeError) as error: failures.append({'source':source['name'],'error':str(error)})
     PENDING.write_text(json.dumps(pending,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+    # 待核验事项同样进入日历，标题中已标注“待核验”；人工确认后可移入 verified_events。
+    CALENDAR.write_text(ics(verified + pending),encoding='utf-8')
     STATUS.write_text(json.dumps({'updated_at':datetime.now(timezone.utc).isoformat(),'verified_events':len(verified),'pending_events':len(pending),'fetch_failures':failures},ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f'已生成 {len(verified)} 个订阅事件；待核验 {len(pending)} 条'); return 0
 if __name__ == '__main__': raise SystemExit(main())

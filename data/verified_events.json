@@ -1,1 +1,47 @@
-[]
+[
+  {
+    "title": "2027年度国考：网上报名开始",
+    "date": "2026-10-14",
+    "region": "全国",
+    "kind": "国考",
+    "stage": "报名",
+    "url": "https://legalinfo.moj.gov.cn/zhfxfzzx/fzzxyw/202610/t20261013_540645.html",
+    "source": "司法部智慧普法平台转载国家公务员局消息"
+  },
+  {
+    "title": "2027年度国考：网上报名截止（18:00）",
+    "date": "2026-10-24",
+    "region": "全国",
+    "kind": "国考",
+    "stage": "报名",
+    "url": "https://legalinfo.moj.gov.cn/zhfxfzzx/fzzxyw/202610/t20261013_540645.html",
+    "source": "司法部智慧普法平台转载国家公务员局消息"
+  },
+  {
+    "title": "2027年度国考：准考证打印开始",
+    "date": "2026-11-23",
+    "region": "全国",
+    "kind": "国考",
+    "stage": "准考证打印",
+    "url": "https://hrss.sz.gov.cn/szksy/ztzl/gwyks/jgkszt/content/post_13018462.html",
+    "source": "深圳市考试院考试日程"
+  },
+  {
+    "title": "2027年度国考：专业科目及外语水平测试",
+    "date": "2026-11-28",
+    "region": "全国",
+    "kind": "国考",
+    "stage": "笔试",
+    "url": "https://rst.xinjiang.gov.cn/xjrst/c112740/202610/d7f36bc7e24a49219ff071e557c288dd.shtml",
+    "source": "新疆维吾尔自治区人力资源和社会保障厅"
+  },
+  {
+    "title": "2027年度国考：公共科目笔试",
+    "date": "2026-11-29",
+    "region": "全国",
+    "kind": "国考",
+    "stage": "笔试",
+    "url": "https://legalinfo.moj.gov.cn/zhfxfzzx/fzzxyw/202610/t20261013_540645.html",
+    "source": "司法部智慧普法平台转载国家公务员局消息"
+  }
+]
