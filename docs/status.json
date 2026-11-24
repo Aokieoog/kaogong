@@ -1,0 +1,95 @@
+{
+  "updated_at": "2026-11-24T09:52:54.842243+00:00",
+  "verified_events": 5,
+  "pending_events": 64,
+  "fetch_failures": [
+    {
+      "source": "国家公务员局考试录用专题",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "source": "河北人事考试网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "山西人事考试专栏",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "内蒙古人事考试网",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "source": "辽宁人事考试网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "浙江公务员考试录用网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "安徽人事考试网",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>"
+    },
+    {
+      "source": "福建公务员考试录用网",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "江西人事考试网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "灯塔党建在线",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "河南人事考试中心",
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] ssl/tls alert handshake failure (_ssl.c:1018)>"
+    },
+    {
+      "source": "湖南人事考试网",
+      "error": "<urlopen error [SSL: BAD_ECPOINT] bad ecpoint (_ssl.c:1018)>"
+    },
+    {
+      "source": "广西人事考试网",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "海南省考试局",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "重庆市人社局",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
+    },
+    {
+      "source": "四川人事考试网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "贵州人事考试信息网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "云岭先锋网",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "甘肃组工网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "青海人事考试信息网",
+      "error": "<urlopen error timed out>"
+    },
+    {
+      "source": "宁夏人事考试中心",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "source": "新疆人事考试中心",
+      "error": "<urlopen error timed out>"
+    }
+  ]
+}
