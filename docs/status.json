@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-11-25T08:27:59.780597+00:00",
+  "updated_at": "2026-11-26T08:13:07.428337+00:00",
   "verified_events": 5,
-  "pending_events": 75,
+  "pending_events": 76,
   "fetch_failures": [
     {
       "source": "国家公务员局考试录用专题",
@@ -30,6 +30,10 @@
     {
       "source": "安徽人事考试网",
       "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate in certificate chain (_ssl.c:1018)>"
+    },
+    {
+      "source": "福建公务员考试录用网",
+      "error": "<urlopen error [Errno 101] Network is unreachable>"
     },
     {
       "source": "江西人事考试网",
